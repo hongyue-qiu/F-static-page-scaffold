@@ -27,7 +27,7 @@ ul {
   background-color: #3b5998;
   color: white;
   display: flex;
-  padding: 0 150px;
+  padding: 0 calc(50% - 465.5px);
   justify-content: space-between;
   align-items: center;
 }
@@ -44,7 +44,8 @@ ul {
   margin-left: 10px;
 }
 .main {
-  padding: 0 150px;
+  width: 931px;
+  margin: auto;
 }
 .select-homepage {
   display: flex;
